@@ -24,6 +24,17 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
+a {
+  color: #7D5A5A;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
 .top-container {
   background-color: #fff1f4;
   position: relative;
@@ -35,30 +46,46 @@ h3 {
 }
 
 .bottom-container {
+  background-color: #E9B2BC;
+  padding: 50px 0 20px;
+}
 
+hr {
+  border: 5px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.profile {
+  margin-top: 50px;
 }
 
 .controller-img {
@@ -69,4 +96,41 @@ h3 {
 .burger-img {
   float: right;
   margin-left: 30px;
+}
+
+.contact-me {
+  margin: 60px auto;
+  width: 40%;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.credits {
+  color: #EAF6F6;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.button {
+   -webkit-border-radius: 14px;
+   -moz-border-radius: 14px;
+   border-radius: 14px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   background-color: #E9B2BC;
+   text-decoration: none;
+}
+
+.button:hover {
+   background: #FFF1F4;
+   border: solid #FFFFFF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
